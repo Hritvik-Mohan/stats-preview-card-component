@@ -193,9 +193,13 @@ body {
         display: none;
     }
 
-    /* .card-info > img {
+    .card > img {
         border-radius: 10px 10px 0 0 ;
-    } */
+    }
+
+    .card {
+        flex-direction: column;
+    }
 
     .card > .card-info {
         width: 100%;
